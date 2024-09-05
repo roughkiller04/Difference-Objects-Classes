@@ -26,21 +26,6 @@ In the Main class:
 Two objects, dog and cat, are created using the Animal class.
 The methods makeSound() and age() are called for both objects to demonstrate their behaviors.
 
-# Code Snippet
-// Creating objects (instances) of the Animal class
-Animal dog = new Animal("Dog", 10);
-Animal cat = new Animal("Cat", 5);
-
-// Calling methods using the object 'dog'
-dog.makeSound(); 
-dog.age();
-
-System.out.println();
-
-// Calling methods using the object 'cat'
-cat.makeSound(); 
-cat.age();
-
 # Output
 Dog is making a sound.
 Its age is 10.
