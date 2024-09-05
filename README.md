@@ -25,3 +25,41 @@ In the Main class:
 
 Two objects, dog and cat, are created using the Animal class.
 The methods makeSound() and age() are called for both objects to demonstrate their behaviors.
+
+#Code Snippet
+// Creating objects (instances) of the Animal class
+Animal dog = new Animal("Dog", 10);
+Animal cat = new Animal("Cat", 5);
+
+// Calling methods using the object 'dog'
+dog.makeSound(); 
+dog.age();
+
+System.out.println();
+
+// Calling methods using the object 'cat'
+cat.makeSound(); 
+cat.age();
+
+#Output
+Dog is making a sound.
+Its age is 10.
+
+Cat is making a sound.
+Its age is 5.
+
+#How to Run the Program 
+1.Ensure that you have Java installed on your system.
+2.Save the code in a file named Main.java.
+3.Open the terminal and navigate to the directory containing Main.java.
+4.Compile the program using the command:
+javac Main.java
+5.Run the program using:
+java Main
+
+#Conclusion
+This project illustrates how classes and objects work in Java by defining a class Animal and creating two objects (dog and cat). Each object has its own unique set of attributes and can invoke the methods defined in the class to perform actions.
+
+
+
+
